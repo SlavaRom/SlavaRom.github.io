@@ -1,0 +1,191 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+html {
+    height: 100%;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	height: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    width: 100%;
+
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+
+/*///////////////////////////////////////////////////ПЕРВАЯ ЧАСТЬ////////////////////////////////////////////////*/
+header{
+	background-image: url(../img/top_bg.jpg);
+	min-height: 100%;
+	min-height: 972px;
+	background-repeat: repeat-x;
+	background-position: top center;
+	position: relative;
+	font-family: "beer money";
+}
+.contacts{
+	padding-left:  10px;
+	margin: 15px 0 0 64px;
+}
+.contacts a{
+	font-size: 35px;
+	text-decoration-color: #fff;
+	text-decoration: none;
+	margin: 5px;
+
+}
+#inst{
+	margin: 0 0 0 180px;
+}
+#poch{
+    border-bottom: dashed 1px;
+    padding-top: 20px;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+#poch:hover {
+	border-bottom: transparent 1px dashed;
+}
+.logo{
+	text-align: center;
+	padding-top: 72px;
+}
+.hello h1{
+	text-align: center;
+	font-size:  71px;
+	color: #7bbfc1;
+	margin: 52px 0;
+}
+.hello p{
+	text-align: center;
+	font-size:  48px;
+	color: #ffe902;
+	margin: 16px ;
+}
+.nav a{
+	color:#fff;
+}
+.nav a:hover{
+	color: #ffe902;
+	text-decoration-color: #ffe902;
+}
+.nav ol{
+	text-decoration: none;
+	display: inline;
+	position: relative;
+	overflow:hidden; 
+	font-size: 30px;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+    left: 9%;
+	float:left;
+	margin: 70px 0 0 0;
+	color: #fff;
+}
+#act{
+	border-bottom: dashed 2px;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+    text-decoration-color: #ffe902;
+}
+#act:hover{
+	border-bottom: transparent 2px dashed;
+}
+img{
+	width: 490px;
+	height: 170px;
+	position: absolute;
+}
+/*////////////////////////////////////////////////ВТОРАЯ ЧАСТЬ////////////////////////////////////////////*/
+content{
+	background-image: url(../img/bg.jpg);
+	min-height: 100%;
+	background-repeat: round ;
+	position: absolute ;
+	min-width: 100%;
+	color: #fff;
+	}
+.welcome2{
+	font-family: "beer money";
+	
+}
+.welcome2 h1{
+	font-size: 53px;
+	text-align:  center;
+	margin: 1.5em 0 2em 0;
+}
+.welcome2 p{
+	font-family: "Lionelofparis";
+	font-size: 35px;
+	text-align:  justify;
+	text-indent: 5%;
+	margin-top: 0.5em;
+	margin-bottom: 0em;
+}
+#p1{
+	margin: 0 0 3.5em 0;
+}
+.navbar{
+	height: 20em;
+    background: #318faf; 
+    border-radius: 35px;
+    margin: 2.5em 0;
+}
+.navbar a{
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+	color: #fff;
+	font-size: 31px;
+	position:relative;
+	padding: 0;
+	float: left;
+	left: -20%;
+	margin: 4px;
+}
+.navbar a:hover{
+	color: #0dc7f6;
+}
+#act2{
+	color: #0dc7f6;
+}
